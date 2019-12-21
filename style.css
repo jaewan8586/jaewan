@@ -1,0 +1,70 @@
+.title{
+
+    font-family: "avenir", sans-serif; 
+    color: darkred;
+    text-align: center;
+
+}
+
+body{
+
+    background-color: whitesmoke;
+
+}
+
+.link{
+
+    color: red;
+    text-align: center;
+    transform: scale(1);
+    font-size: 30px;
+    transition-property: transform, color;
+    transition-timing-function: ease;
+    transition-duration: 0.1s;
+    
+
+
+}
+
+.link:hover{
+    
+    transform: scale(1.9);
+    color: blue;
+
+}
+
+.div1{
+
+    background-color: green;
+
+    text-align: center;
+
+    width: 400px;
+
+    margin: auto;
+
+    padding: 50px;
+
+    border-radius: 30px;
+
+    opacity: 1;
+
+    transition-property: opacity, background-color;
+
+    transition-timing-function: ease;
+
+    transition-duration: 0.1    s;
+
+}
+
+.div1:hover{
+
+    opacity: 0.8;
+
+}
+
+.div1:active{
+
+    background-color: yellow;
+
+}
